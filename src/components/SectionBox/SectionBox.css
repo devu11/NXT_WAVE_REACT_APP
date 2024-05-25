@@ -1,0 +1,32 @@
+.section-box {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 400px;
+    margin-top: -30px;
+    
+  }
+  
+  .section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    
+    
+  }
+  .section h3{
+    font-size: 13px;
+    transform: translateY(-10px);
+  }
+  
+  .section:not(:last-child) {
+    border-right: 1px solid #ccc;
+  }
+  .resources-section {
+    background-color: blue;
+    color: white;
+  }

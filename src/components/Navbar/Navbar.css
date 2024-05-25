@@ -1,0 +1,58 @@
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+   
+  }
+  
+  .navbar-logo img {
+    height: 80px;
+    transform: translateY(-20px);
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-button {
+    margin-right: 30px;
+    width: 80px;
+    height: 35px;
+    background-color: #27c684;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateY(-20px);
+  }
+  
+  .profile-circle {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: translateY(-20px);
+  }
+  
+  .profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .navbar-line {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+   transform: translateY(-56px);
+  }
