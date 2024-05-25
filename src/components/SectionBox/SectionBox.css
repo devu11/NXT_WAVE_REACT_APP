@@ -1,3 +1,10 @@
+.section-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -30px;
+}
+
 .section-box {
   display: flex;
   justify-content: space-between;
@@ -6,8 +13,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden;
-  margin-left: 400px;
-  margin-top: -30px;
+  margin-bottom: 20px;
 }
 
 .section {
@@ -15,6 +21,7 @@
   padding: 20px;
   text-align: center;
 }
+
 .section h3 {
   font-size: 13px;
   transform: translateY(-10px);
@@ -23,7 +30,33 @@
 .section:not(:last-child) {
   border-right: 1px solid #ccc;
 }
+
 .resources-section {
   background-color: blue;
   color: white;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin-left: -480px;
+  position: relative;
+}
+
+.search-container input {
+  width: calc(100% - 35px);
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 0px 35px 0 10px; 
+  
+}
+
+.search-icon {
+  position: absolute;
+ left: 5px;
+  color: #ccc;
+  cursor: pointer;
 }

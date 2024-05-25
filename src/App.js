@@ -23,6 +23,7 @@ function App() {
   return (
     <div className="App">
       <Navbar onAddClick={handleAddClick} />
+
       {showForm ? <ResourceForm onSubmit={handleFormSubmit} /> : <SectionBox />}
 
       <ResourceList resources={resources} />

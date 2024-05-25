@@ -22,7 +22,7 @@
   display: block;
   font-size: 10px;
   color: hsl(0, 1%, 47%);
-  margin-left: -170px;
+  margin-left: -250px;
 }
 
 .resource-form-left form {
@@ -32,8 +32,8 @@
 
 .resource-form-left form input,
 .resource-form-left form textarea {
-  width: 220px;
-  height: 25px;
+  width: 300px;
+  height: 29px;
   padding: 10px;
   font-size: 14px;
   border: 1px solid #ccc;
@@ -57,7 +57,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateY(-11px);
+  transform: translateY(-22px);
 }
 
 .resource-form-right img {
