@@ -1,0 +1,49 @@
+/* src/components/ResourceList.css */
+.resource-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .resource-card {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .resource-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .resource-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .resource-category {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .resource-title {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .resource-link {
+    margin-top: 5px;
+  }
+  
+  .resource-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .resource-description {
+    margin-top: 5px;
+  }
+  
