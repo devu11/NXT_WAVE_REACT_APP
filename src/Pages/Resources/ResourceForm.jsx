@@ -29,34 +29,66 @@ function ResourceForm({ onSubmit }) {
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="title">ITEM TITLE:</label>
-            <input type="text" id="title" name="title" value={formData.title} onChange={handleChange} />
+            <input
+              type="text"
+              id="title"
+              name="title"
+              value={formData.title}
+              onChange={handleChange}
+            />
           </div>
           <div className="form-group">
             <div className="linklabel">
-            <label htmlFor="link">LINK:</label>
-           
-         
+              <label htmlFor="link">LINK:</label>
             </div>
-            <input type="text" id="link" name="link" value={formData.link} onChange={handleChange} />
-             </div>
+            <input
+              type="text"
+              id="link"
+              name="link"
+              value={formData.link}
+              onChange={handleChange}
+            />
+          </div>
           <div className="form-group">
             <label htmlFor="iconUrl">ICON URL:</label>
-            <input type="text" id="iconUrl" name="iconUrl" value={formData.iconUrl} onChange={handleChange} />
+            <input
+              type="text"
+              id="iconUrl"
+              name="iconUrl"
+              value={formData.iconUrl}
+              onChange={handleChange}
+            />
           </div>
           <div className="form-group">
             <label htmlFor="tagName">TAG NAME:</label>
-            <input type="text" id="tagName" name="tagName" value={formData.tagName} onChange={handleChange} />
+            <input
+              type="text"
+              id="tagName"
+              name="tagName"
+              value={formData.tagName}
+              onChange={handleChange}
+            />
           </div>
           <div className="form-group">
             <label htmlFor="category">CATEGORY:</label>
-            <input type="text" id="category" name="category" value={formData.category} onChange={handleChange} />
+            <input
+              type="text"
+              id="category"
+              name="category"
+              value={formData.category}
+              onChange={handleChange}
+            />
           </div>
           <div className="form-group">
             <div className="discriptionlable">
-            <label htmlFor="description">DESCRIPTION:</label>
+              <label htmlFor="description">DESCRIPTION:</label>
             </div>
-            <textarea id="description" name="description" value={formData.description} onChange={handleChange}></textarea>
-           
+            <textarea
+              id="description"
+              name="description"
+              value={formData.description}
+              onChange={handleChange}
+            ></textarea>
           </div>
           <button type="submit">CREATE</button>
         </form>

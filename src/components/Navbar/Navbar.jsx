@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import React from "react";
 import "./Navbar.css";
 
@@ -13,7 +12,9 @@ function Navbar({ onAddClick }) {
           />
         </div>
         <div className="navbar-actions">
-          <button className="add-button" onClick={onAddClick}>ADD ITEM</button>
+          <button className="add-button" onClick={onAddClick}>
+            ADD ITEM
+          </button>
           <div className="profile-circle">
             <img
               src="https://i.pinimg.com/736x/68/c5/0a/68c50ac30605fdb8ce0836aaeaacd48c.jpg"

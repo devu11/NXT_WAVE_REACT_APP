@@ -1,78 +1,73 @@
 .resource-form-container {
-    display: flex;
-    align-items: stretch;
-    transform: translateY(-73px);
-    align-items: stretch;
-    
-  }
-
-  
-  .resource-form-left {
-    flex: 1;
-    padding: 30px;
-    margin-top: 50px;
-  }
-.resource-form-left h2{
-    font-size: 20px;
-    transform: translateY(-20px);
+  display: flex;
+  align-items: stretch;
+  transform: translateY(-73px);
+  align-items: stretch;
 }
-  .form-group {
-    margin-bottom: 20px; 
-  }
 
-  .form-group label {
-    display: block; 
-    font-size: 10px;
-    color: hsl(0, 1%, 47%);
-    margin-left: -170px;
-    
-  }
-  
-  .resource-form-left form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
-  .resource-form-left form input,
+.resource-form-left {
+  flex: 1;
+  padding: 30px;
+  margin-top: 50px;
+}
+.resource-form-left h2 {
+  font-size: 20px;
+  transform: translateY(-20px);
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 10px;
+  color: hsl(0, 1%, 47%);
+  margin-left: -170px;
+}
+
+.resource-form-left form {
+  display: flex;
+  flex-direction: column;
+}
+
+.resource-form-left form input,
 .resource-form-left form textarea {
-  width: 220px; 
+  width: 220px;
   height: 25px;
-  padding: 10px; 
+  padding: 10px;
   font-size: 14px;
   border: 1px solid #ccc;
 }
-  
-  .resource-form-left form button {
-    margin-top: 10px;
-    margin-left: 250px;
-    width: 70px;
-    padding: 10px;
-    font-size: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .resource-form-right {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-11px);
-  }
-  
-  .resource-form-right img {
-    margin-left: 95px;
-    width: 530px;
-    height: 530px;
-  }
-  .linklabel{
-    margin-left: -30px;
-  }
-  .discriptionlable{
-    margin-left: 10px;
-  }
-  
+
+.resource-form-left form button {
+  margin-top: 10px;
+  margin-left: 250px;
+  width: 70px;
+  padding: 10px;
+  font-size: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resource-form-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-11px);
+}
+
+.resource-form-right img {
+  margin-left: 95px;
+  width: 530px;
+  height: 530px;
+}
+.linklabel {
+  margin-left: -30px;
+}
+.discriptionlable {
+  margin-left: 10px;
+}
