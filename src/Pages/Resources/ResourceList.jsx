@@ -25,4 +25,5 @@ function ResourceList({ resources }) {
   );
 }
 
+
 export default ResourceList;

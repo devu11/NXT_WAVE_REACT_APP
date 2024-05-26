@@ -30,12 +30,10 @@
 .section:not(:last-child) {
   border-right: 1px solid #ccc;
 }
-
 .resources-section {
   background-color: blue;
   color: white;
 }
-
 .search-container {
   display: flex;
   align-items: center;

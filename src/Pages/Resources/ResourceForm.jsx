@@ -21,7 +21,6 @@ function ResourceForm({ onSubmit }) {
     e.preventDefault();
     onSubmit(formData);
   };
-
   return (
     <div className="resource-form-container">
       <div className="resource-form-left">
