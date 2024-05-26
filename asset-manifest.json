@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NXT_WAVE_REACT_APP/static/css/main.8d6be893.css",
+    "main.js": "/NXT_WAVE_REACT_APP/static/js/main.e8eb2622.js",
+    "index.html": "/NXT_WAVE_REACT_APP/index.html",
+    "main.8d6be893.css.map": "/NXT_WAVE_REACT_APP/static/css/main.8d6be893.css.map",
+    "main.e8eb2622.js.map": "/NXT_WAVE_REACT_APP/static/js/main.e8eb2622.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d6be893.css",
+    "static/js/main.e8eb2622.js"
+  ]
+}
